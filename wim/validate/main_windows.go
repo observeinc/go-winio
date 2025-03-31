@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Microsoft/go-winio/wim"
+	"github.com/observeinc/go-winio/wim"
 )
 
 func main() {

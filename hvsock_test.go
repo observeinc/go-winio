@@ -14,8 +14,8 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/Microsoft/go-winio/internal/socket"
-	"github.com/Microsoft/go-winio/pkg/guid"
+	"github.com/observeinc/go-winio/internal/socket"
+	"github.com/observeinc/go-winio/pkg/guid"
 )
 
 const testStr = "test"

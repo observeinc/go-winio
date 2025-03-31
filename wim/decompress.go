@@ -7,7 +7,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/Microsoft/go-winio/wim/lzx"
+	"github.com/observeinc/go-winio/wim/lzx"
 )
 
 const chunkSize = 32768 // Compressed resource chunk size

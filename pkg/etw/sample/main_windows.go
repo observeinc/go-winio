@@ -11,8 +11,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/Microsoft/go-winio/pkg/etw"
-	"github.com/Microsoft/go-winio/pkg/guid"
+	"github.com/observeinc/go-winio/pkg/etw"
+	"github.com/observeinc/go-winio/pkg/guid"
 )
 
 func callback(sourceID guid.GUID, state etw.ProviderState, level etw.Level, matchAnyKeyword uint64, matchAllKeyword uint64, filterData uintptr) {

@@ -6,7 +6,7 @@ package etw
 import (
 	"testing"
 
-	"github.com/Microsoft/go-winio/pkg/guid"
+	"github.com/observeinc/go-winio/pkg/guid"
 )
 
 func mustGUIDFromString(t *testing.T, s string) guid.GUID {
